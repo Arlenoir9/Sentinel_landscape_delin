@@ -1,2 +1,2 @@
 # Sentinel_landscape_delin
-Delimitation des ZM a l'echelle du territoire
+Délimitation des ZM a l'échelle du territoire
