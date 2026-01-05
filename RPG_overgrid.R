@@ -4,6 +4,7 @@ library(dplyr)
 library(ggplot2)
 
 # Revu le 22/06/2025.
+# Attention, les identifiants DD sont inversés
 
 ImS2<-raster::raster("D://Img_Sen2/S2_coreg/SENTINEL2A_20170419-110601-310_L2A_T31UDR_D_V1-4/SENTINEL2A_20170419-110601-310_L2A_T31UDR_D_V1-4_SRE_B4.tif")
 newcrs<-raster::crs(ImS2)
@@ -52,6 +53,7 @@ for (ii in 43){
   st_write(proj_grid, dsn=paste0("D://These/04. BdD_geo/RPG/Wall/Filtered & gridded/pix_new", lg))
 
 }
+
 
 
  
